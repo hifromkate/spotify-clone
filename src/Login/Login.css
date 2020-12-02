@@ -1,0 +1,26 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.logoWrapper > img {
+  width: 100%;
+}
+
+.logoWrapper {
+  max-width: 500px;
+}
+
+.login > a {
+  padding: 20px;
+  background-color: #1db954;
+  border-radius: 99px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
